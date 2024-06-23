@@ -1,0 +1,19 @@
+.write{
+
+    margin-top: 20px;
+    padding: 60px 30px;
+}
+
+
+.home-link::before{
+    content: "🏠";
+}
+.home-link{
+    font-size: 25px;
+    color: #ccc;
+    
+
+}
+.write-heading{
+    margin: 20px 0;
+}

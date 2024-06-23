@@ -1,0 +1,46 @@
+.rightbar{
+    flex: 3;
+    margin-left: 20px;
+    height: 100vh;
+    position: sticky;
+    top: 0%;
+    
+}
+
+.rightbar-category{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+   
+.rightbar-category-title,.rightbar-popular-title{
+    color: #ddd;
+    margin: 20px 0 20px 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+.rightbar-popular-tiitle-second{
+    color: rgb(220, 20, 73);
+    margin: 20px 0 20px 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+
+}
+
+.rightbar-nothing-to-show{
+    color: #ccc;
+    text-transform: capitalize;
+}
+/* Styles for screens smaller than or equal to 600px */
+@media (max-width: 600px) {
+      
+ 
+        
+}
+    
+    /* Styles for screens larger than 600px and smaller than or equal to 900px */
+    @media (min-width: 601px) and (max-width: 900px) {
+      /* Your styles here */
+}

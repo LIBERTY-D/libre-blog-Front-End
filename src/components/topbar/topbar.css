@@ -1,0 +1,57 @@
+
+:root{
+    --bg-topbar:#0A0F24;
+}
+ul{
+    list-style-type: none;
+}
+.topbar{
+    z-index: 1000;
+    position: sticky;
+    top: 0;
+    color: white;
+    display: flex;
+
+    background-color: var(--bg-topbar);
+    height: 70px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.topbar-left{
+  flex: 5;
+}
+
+.topbar-center{
+   flex: 4.5;
+}
+
+.topbar-right{
+  flex: 3;
+
+}
+.topbar-right-links{
+    display: flex;
+
+}
+.topbar-right-link{
+    margin-right: 10px;
+    text-transform: capitalize;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+
+}
+.topbar-left-links{
+    display: flex;
+
+}
+.topbar-left-link{
+    margin-left: 10px;
+    cursor: pointer;
+   
+
+}

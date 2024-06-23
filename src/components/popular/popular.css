@@ -1,0 +1,39 @@
+
+.popular{
+    position: relative;
+   height: 150px;
+   margin-bottom: 20px;
+   cursor: pointer;
+}
+
+.popular-container{
+    display: flex;
+    gap: 10px;
+}
+.popular-img{
+   width:150px ;
+   height: 150px;
+}
+.popular-title{
+
+    color: #ddd;
+    margin: 0px 0 10px 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    word-wrap: break-word;
+    font-style: normal;
+}
+.popular-date{
+    color: crimson;
+    margin: 0px 0 10px 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.popular-rating{
+    position: absolute;
+    bottom: 0;
+}
+.star-rating{
+    color: orange;
+}

@@ -1,0 +1,82 @@
+.signup-page{
+    margin-top: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    height: 100%;
+    
+    
+}
+
+.signup-container{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    
+    width: 80%;
+    /* box-shadow: 10px 10px 5px 0px rgba(241, 239, 239, 0.75); */
+}
+
+.signup-left{
+
+    flex: 3;
+}
+
+.signup-right{
+    flex-direction: column;
+
+    flex: 2;
+}
+
+.signup-right input{
+    padding: 15px 2px;
+    margin: 12px 5px;
+    width: 90%;
+    outline: none;
+    border: 1px solid #f2f2f2;
+    border-radius: 5px;
+}
+
+.signup-head{
+   margin: 10px 5px;
+   font-size: 40px;
+}
+.signup-desc{
+  font-size: 25px;
+}
+
+.signup-right input:focus{
+    border: 1px solid lightblue;
+}
+.signup-dont{
+    margin-left: 10px;
+}
+
+.profilePicture{
+    text-align:center;
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+}
+.signup-right-img-container{
+    position: relative;
+}
+.signup-right-chooseImage{
+    top: 5px;
+    left: 65px;
+    position: absolute;
+    border: 1px solid #fff;
+    cursor: pointer;
+    background-color: #ddd;
+    border-radius: 50%;
+
+}
+@media (max-width:600px){
+    .signup-container{
+          flex-direction: column;
+    }
+}

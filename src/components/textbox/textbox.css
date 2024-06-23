@@ -1,0 +1,142 @@
+.text-box{
+    width: 100%;
+    display: flex;
+}
+
+.text-box-container1{
+    flex: 6;
+}
+.text-box-container2{
+    flex: 6;
+
+}
+.text-box-options{
+ 
+}
+
+.text-box-toggle{
+    background-color: #f1f1f1;
+    color: lightgreen;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin: 10px 0;
+
+}
+.text-box-icon-style{
+    cursor: pointer;
+    text-align: center;
+
+    
+
+}
+.text-box-icon-style.add{
+    text-align: center;
+    margin: auto;
+}
+.text-box-inputs{
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+
+}
+
+.text-box-title{
+    padding: 20px 5px;
+    width: 80%;
+    border: 1px solid #f1f1f1;
+    border-radius: 5px;
+    outline: none;
+    
+
+}
+
+.text-box-desc{
+
+    margin-top: 13px;
+    padding: 0 5px;
+    width: 80%;
+    height: 100px;
+    resize: none;
+    border: 1px solid #f1f1f1;
+    border-radius: 5px;
+    outline: none;
+}
+.text-box-img{
+    width: 70%;
+    height:250px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.text-box-output-title,.text-box-output-desc{
+    margin: 10px 0;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+
+}
+.text-box-output-title{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+
+}
+.text-box-output-desc{
+    color: #484545;
+
+}
+
+.text-box-post-btn{
+    width: 100px;
+}
+
+.text-box-icon{
+    color: #f1f1f1;
+}
+.text-box-option{
+    display: flex;
+    text-align: center;
+    background-color: black;
+    width: 100px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+.text-box-file-upload{
+
+}
+.text-box-file-upload-label{
+    color: lightblue;
+    cursor: pointer;
+    display: flex;
+    margin: 10px 0;
+}
+
+.xbox-error{
+    text-align: center;
+}
+
+.tags-container{
+    max-width: 300px;
+    gap: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.selected{
+    background-color:#1877F2 !important;
+}
+/* Styles for screens smaller than or equal to 600px */
+@media (max-width: 600px) {
+      
+    .text-box{
+        flex-direction: column;
+    }
+        
+}
+    
+    /* Styles for screens larger than 600px and smaller than or equal to 900px */
+    @media (min-width: 601px) and (max-width: 900px) {
+      /* Your styles here */
+}

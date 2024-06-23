@@ -1,0 +1,135 @@
+
+.leftbar{
+    flex: 3;
+    position: sticky;
+    height: 100vh;
+    /* margin: auto; */
+    padding: 20px 15px;
+    position: sticky;
+    top:0;
+
+    
+ 
+    
+}
+.leftbar-logo{
+
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 2px;
+
+}
+
+.leftebar-container{
+
+}
+
+
+.leftbar-title,.leftbar-owner-title{
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    margin-bottom: 20px;
+
+}
+
+.leftbar-desc{
+    margin-bottom: 20px;
+    font-size:18px;
+}
+
+.leftbar-owner{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.leftbar-owner-container{
+    display: flex;
+    align-items: center;
+
+}
+
+.leftbar-owner-img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    /* border:3px solid lightblue; */
+
+}
+.leftbar-owner-name{
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    margin-bottom: 30px;
+
+}
+.leftbar-owner-date{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    margin-top: 15px;
+    color: #ddd;
+    margin-top: 10px;
+}
+.leftbar-owner-name,.leftbar-owner-date{
+  margin-left:10px;
+}
+
+
+/* .leftbar-follow{
+    margin-left:10px;
+} */
+
+.leftbar-follow-btn{
+    width: 70px;
+    border: 1px solid #d1d1d1;
+    padding: 8px 3px;
+    border-radius: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+    background-color: #1877F2;
+    color: white;
+   
+}
+.leftbar-icons{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.leftbar-icon{
+    font-size: 30px !important;
+    cursor: pointer;
+}
+
+.leftbar-bottom-link{
+    font-size: 18px;
+    margin-left: 3px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    cursor: pointer;
+    bottom: 0;
+}
+.leftbar-bottom-link::before{
+    content:"";
+    width: 1px;
+    height: 10px;
+    background-color:gray;
+    padding: 0.5px;
+    
+}
+.leftbar-bottom{
+    position: absolute;
+    bottom: 5px;
+}
+
+@media (max-width: 600px) {
+    .leftbar{
+        display: none;
+    }
+ }

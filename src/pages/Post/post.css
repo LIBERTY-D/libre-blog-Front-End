@@ -1,0 +1,39 @@
+.post-page{
+    margin-top: 50px;
+}
+
+.post-page-title{
+    width: 250px;
+    padding: 3px 0.5px;
+    margin-left: 25px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    color:#1877F2;
+}
+
+.post-page-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* Styles for screens smaller than or equal to 600px */
+@media (max-width: 600px) {
+      
+.post-page-content{
+    flex-direction: column;
+
+}
+
+.post-page-title{
+    width: 90%;
+    margin-bottom: 30px;
+}
+    
+}
+
+/* Styles for screens larger than 600px and smaller than or equal to 900px */
+@media (min-width: 601px) and (max-width: 900px) {
+  /* Your styles here */
+}

@@ -1,0 +1,23 @@
+.cat{
+    background: crimson;
+    padding: 10px 5px;
+    /* width: 100px; */
+    border-radius: 5px;
+    text-align: center;
+    width: max-content;
+    cursor: pointer;
+    color: white;
+    
+}
+
+.cat-img{
+    width:30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.cat-img-container{
+
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}

@@ -1,0 +1,30 @@
+.dialog{
+
+    background-color:white;
+    height: 200px;
+    width: 150px;
+    box-shadow: 10px 10px 5px 0px rgba(241, 239, 239, 0.75);
+    border-radius: 10px;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+}
+
+.dialog-dialog-text{
+
+    font-size: 20px;
+    text-transform: capitalize;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    border-bottom: 1px solid #ddd;
+    font-style: normal;
+    padding: 10px 5px;
+    cursor: pointer;
+
+}
+
+.dialog-dialog-text:hover{
+    background-color: black;
+    color: lightgreen;
+    border-radius: 10px;
+}
